@@ -1,3 +1,9 @@
 header h1 {
     color: aqua;
 }
+nav ul li {
+float: left;
+}
+nav ul il a {
+     display: block;
+}
