@@ -1,6 +1,6 @@
 body {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1.0;
     
 }
 
@@ -14,31 +14,33 @@ nav {
 }
 
 nav a:hover {
-    background-color: #EDCF8E;
+    background-color: skyblue;
 }
 
 
 header {
-    background-color: #EDCF8E;
+    background-color: skyblue;
     color: whitesmoke;
     text-align: center;
-    border-radius: 5px;
+    border: red;
+    border-radius: 50px;
     padding: 30px;
 
 }
 
 img {
     float: right;
-   
-    border-radius: 5px;
+    border-style: outset;
+    border-radius: 20px;
 
 }
 
 footer {
-    background-color: #EDCF8E;
+    background-color: skyblue;
     color: whitesmoke;
     text-align: center;
-    border-radius: 5px;
+    border: red;
+    border-radius: 50px;
 }
 
 footer a {
@@ -53,3 +55,4 @@ footer a:hover {
 footer p{
     color:mediumblue;
 }
+
