@@ -1,10 +1,13 @@
 header h1 {
     color: aqua;
 }
+nav ul  {padding: 0;}
 nav ul li {
 float: left;
 list-style-type: none;
 }
-nav ul il a {
+nav ul li a {
      display: block;
-}
+     padding: .5rem  1rem
+     background-color: #ff8899;
+    }
