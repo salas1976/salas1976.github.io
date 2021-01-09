@@ -14,12 +14,12 @@ nav {
 }
 
 nav a:hover {
-    background-color: beige;
+    background-color: blueviolet;
 }
 
 
 header {
-    background-color: beige;
+    background-color: blueviolet;
     color: whitesmoke;
     text-align: center;
     border-radius: 5px;
