@@ -1,22 +1,55 @@
-header h1 {
-    color: aqua;
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    
 }
-nav {padding: 0;}
-nav ul li {
-float: left;
-list-style-type: none;
+
+header,
+footer,
+main,
+nav {
+    margin: 2.0rem auto;
+    max-width: 760px;
+
 }
-nav ul li a {
-     display: block;
-     padding: .5rem  1rem;
-     background-color:  #ff8899;
+
+nav a:hover {
+    background-color: #EDCF8E;
 }
-    main h1 {
-        clear: both;
-}
-main img {
-    float:right;
-}
-footer {
+
+
+header {
+    background-color: #EDCF8E;
+    color: whitesmoke;
     text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+
+img {
+    float: right;
+   
+    border-radius: 5px;
+
+}
+
+footer {
+    background-color: #EDCF8E;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer a {
+    color: whitesmoke;
+}
+
+footer a:hover {
+    background-color: blue;
+    background-size: unset;
+}
+
+footer p{
+    color:mediumblue;
 }
