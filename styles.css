@@ -46,7 +46,7 @@ footer a {
 }
 
 footer a:hover {
-    background-color: blue;
+    background-color: blueviolet;
     background-size: unset;
 }
 
