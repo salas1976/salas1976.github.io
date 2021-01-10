@@ -36,14 +36,14 @@ img {
 
 footer {
     background-color: blueviolet;
-    color: whitesmoke;
+    color: white;
     text-align: center;
      border-radius: 5px;
      padding: 35px;
 }
 
 footer a {
-    color: whitesmoke;
+    color: white;
 }
 
 footer a:hover {
