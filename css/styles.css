@@ -1,10 +1,10 @@
-body {
+ body {
     font-size: 18px;
     line-height: 1.0;
     
 }
 
-header,
+header,body
 footer,
 main,
 nav {
