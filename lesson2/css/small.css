@@ -1,0 +1,72 @@
+header, footer {
+    margin: 1em auto;
+    height: auto;
+    color: white;
+    background-color: rgba(0, 68, 85, 0.315);
+    text-align: center;
+    padding: 1rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1px;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+h2{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2.5rem;
+    color: black;
+    background-color: rgba(0, 68, 85, 0.315);
+}
+
+h3{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2rem;
+    color: black;
+}
+
+header h2 {
+    color: white;
+    padding-top: 5px;
+    font-size: 1.75em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    padding: .1rem;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.content {
+    max-width: 100%;
+    margin: auto;
+    background-color: #ffffff;
+  }
+  
+section {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    max-width: 95%;
+    margin: 1em auto;
+    overflow: hidden;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+a {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}

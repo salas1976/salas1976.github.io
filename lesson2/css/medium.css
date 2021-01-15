@@ -1,0 +1,15 @@
+@media only screen and (min-width: 35rem) {
+    main {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 0.5em;
+      margin: 1em auto;
+    }
+
+    section {
+      margin: 0;
+    }
+
+    footer {
+      margin-top: 0;
+    }
+}
