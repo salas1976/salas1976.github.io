@@ -1,15 +1,15 @@
-@media only screen and (min-width: 35rem) {
-    main {
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 0.5em;
-      margin: 1em auto;
-    }
+@media only screen and (min-width: 560px){
 
-    section {
-      margin: 0;
+    h1{
+        font-size: 27pt;
+        
     }
-
-    footer {
-      margin-top: 0;
+    
+    #examples {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0 3em;
+        margin: 2em;
+        grid-column-gap: 50px;
     }
 }
