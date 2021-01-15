@@ -1,72 +1,107 @@
-header, footer {
-    margin: 1em auto;
-    height: auto;
-    color: white;
-    background-color: rgba(0, 68, 85, 0.315);
-    text-align: center;
-    padding: 1rem;
-    font-family: 'PT Sans Narrow', sans-serif;
+body {
+    margin: 0;
+    background-color: rgb(247, 227, 200);
+    
 }
 
-header h1 {
-    font-size: 3rem;
-    text-align: center;
-    line-height: 1px;
-    font-family: 'PT Sans Narrow', sans-serif;
-
+h1 {
+   /* background-color: gray;*/
+   background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
+    color: whitesmoke;
+    font-family: "yion sung", serif;
+    font-size: 35pt;
+    padding: 1em;
+    text-shadow: 3px 3px 5px black;
+    border-top: solid rgb(0, 0, 0);
+    border-bottom: solid black;
 }
 
-h2{
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 2.5rem;
-    color: black;
-    background-color: rgba(0, 68, 85, 0.315);
+ 
+h2 {
+    font-family: "open sans condensed", sans-serif;
+    margin: 1em;
+    text-align: left;
 }
 
-h3{
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 2rem;
-    color: black;
-}
-
-header h2 {
-    color: white;
-    padding-top: 5px;
-    font-size: 1.75em;
-    font-family: 'PT Sans Narrow', sans-serif;
-    }
-
-main {
+#examples {
     display: grid;
-    grid-template-columns: 1fr;
-    font-size: 0.8rem;
-    padding: .1rem;
+    padding: 3em;
+    margin: 2em;
+  
+}
+
+#examples a {
+    float: right;
+    padding: 1em;
+    font-family: "open sans condensed", sans-serif;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-decoration: none;
+    color: gray;
+}
+
+#examples a:hover {
+    background-color: gray;
+    color: whitesmoke;
+    padding: .5em;
+    box-shadow: 5pt 5pt 7pt gray;
+    transition-duration: .5s;
+}
+
+.thirds, .white, .contrast {
+    background-color: whitesmoke;
+    border: solid gray;
+    box-shadow: 5pt 5pt 7pt gray;
+    margin-bottom: 2em;
+}
+
+
+img{
+    margin: 1rem 2%;
+    width: 94%;
+    border: solid gray;
+}
+
+
+figcaption {
+    font-family: "yion sung", serif;
+    font-size: 8pt;
+    text-align: center;
 }
 
 p {
-    font-size: 1.5em;
-    font-family: 'PT Sans Narrow', sans-serif;
-}
-.content {
-    max-width: 100%;
-    margin: auto;
-    background-color: #ffffff;
-  }
-  
-section {
-    border: 2px solid #000000;
-    border-radius: 10px;
-    max-width: 95%;
-    margin: 1em auto;
-    overflow: hidden;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-
-a {
-    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: left;
+    padding: 1em;
+    font-family: "yion sung", serif;
+    font-size: 15pt;
+    
 }
 
-img {
-    max-width: 100%;
+.name {
+    Text-align: center;
+    font-family: "yion sung", serif;
+    font-size: 24pt;
+    padding: 0;
+}
+
+footer p{
+    text-align: right;
+    background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
+    font-family: "yion sung", serif;
+    padding: 1.5em;
+    border-top: solid black;
+    border-bottom: solid black;
+    margin-bottom: 2em;
+    font-size: 10pt;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+
+}
+.clearfix:after {
+    content: "";
+    display: table; 
+    clear: both;
 }
