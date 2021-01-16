@@ -44,7 +44,7 @@ h2 {
     background-color: gray;
     color: whitesmoke;
     padding: .5em;
-    box-shadow: 5pt 5pt 7pt gray;
+    border-radius: 10px;
     transition-duration: .5s;
 }
 
