@@ -51,7 +51,7 @@ h2 {
 .thirds, .white, .contrast {
     background-color: white ;
     border: solid gray;
-    box-shadow: 5pt 5pt 7pt gray;
+    border-radius: 10px;
     margin-bottom: 2em;
 }
 
