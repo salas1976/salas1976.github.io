@@ -94,8 +94,3 @@ footer a {
     color: black;
 
 }
-.clearfix:after {
-    content: "";
-    display: table; 
-    clear: both;
-}
