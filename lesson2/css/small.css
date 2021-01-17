@@ -79,7 +79,7 @@ p {
 
 footer p{
     text-align: right;
-    background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
+    background-image: rgb(95, 92, 92);
     font-family: 'PT Serif', serif;
     padding: 1.5em;
     border-top: solid black;
