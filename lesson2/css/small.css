@@ -8,7 +8,7 @@ h1 {
    
    background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
     color: white ;
-    font-family: "yion sung", serif;
+    font-family: 'PT Serif', serif;
     font-size: 35pt;
     padding: 1em;
     text-shadow: 3px 3px 5px black;
@@ -66,14 +66,14 @@ img{
 p {
     text-align: left;
     padding: 1em;
-    font-family: "yion sung", serif;
+    font-family: 'PT Serif', serif;
     font-size: 15pt;
     
 }
 
 .name {
     Text-align: center;
-    font-family: "yion sung", serif;
+    font-family: 'PT Serif', serif;
     font-size: 24pt;
     padding: 0;
 }
@@ -81,7 +81,7 @@ p {
 footer p{
     text-align: right;
     background-image: linear-gradient(to left, rgba(200,0,0,0), rgb(95, 92, 92));
-    font-family: "yion sung", serif;
+    font-family: 'PT Serif', serif;
     padding: 1.5em;
     border-top: solid black;
     border-bottom: solid black;
