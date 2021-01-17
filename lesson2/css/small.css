@@ -48,7 +48,7 @@ h2 {
     transition-duration: .5s;
 }
 
-.proximity , .alignment, .repetition {
+.proximity , .alignment , .repetition {
     background-color: white ;
     border: solid gray;
     border-radius: 10px;
