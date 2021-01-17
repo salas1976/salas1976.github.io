@@ -42,7 +42,7 @@ h2 {
 
 #examples a:hover {
     background-color: gray;
-    color: whitesmoke;
+    color: white;
     padding: .5em;
     border-radius: 10px;
     transition-duration: .5s;
