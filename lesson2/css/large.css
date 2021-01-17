@@ -4,7 +4,7 @@
         font-size: 35pt;
     }
 
-    #examples {
+    #principles {
         display: grid;
         grid-template-columns: auto auto auto;
         padding: 0 3em;
