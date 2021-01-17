@@ -17,7 +17,7 @@ h1 {
 
  
 h2 {
-    font-family: "open sans condensed", sans-serif;
+    font-family: 'PT Serif', serif;
     margin: 1em;
     text-align: left;
 }
@@ -32,7 +32,7 @@ h2 {
 #principles a {
     float: right;
     padding: 1em;
-    font-family: "open sans condensed", sans-serif;
+    font-family: 'PT Serif', serif;
     font-size: 15pt;
     font-weight: bolder;
     text-decoration: none;
