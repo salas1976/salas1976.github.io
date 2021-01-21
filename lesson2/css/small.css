@@ -23,13 +23,14 @@ h1 {
 h2 {
     font-family: 'PT Serif', serif;
     margin: 1em;
-    text-align: center;
+    
 }
 
 #principles {
     display: grid;
     padding: 3em;
     margin: 2em;
+    text-align: center;
   
 }
 
@@ -67,7 +68,7 @@ img{
 }
 
 p {
-    text-align: center;
+    
     padding: 1em;
     font-family: 'PT Serif', serif;
     font-size: 15pt;
