@@ -29,6 +29,7 @@ h2 {
 #principles {
     display: grid;
     padding: 3em;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 2em;
     text-align: center;
   
@@ -97,10 +98,5 @@ footer p{
 footer a {
     text-decoration: none;
     color: black;
-
-}
-#principles .repetition img {
-
-	Border: 3px solid red;
 
 }
