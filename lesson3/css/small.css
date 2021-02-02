@@ -71,3 +71,11 @@ footer {
   display: table;
   clear: both;
 }
+#logo{
+    max-width: 40%;
+    height: auto;
+    width: 100px;
+    height: 100px;
+    background: #555;
+    margin: 20px;
+}
