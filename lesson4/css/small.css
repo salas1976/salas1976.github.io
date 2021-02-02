@@ -120,7 +120,7 @@ header, .footer-bar, .contact-info {
   
   #active {
     background-color: black;
-    color: black;
+    color: white;
   }
   
   #article {
