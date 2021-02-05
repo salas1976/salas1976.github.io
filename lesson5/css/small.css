@@ -1,27 +1,31 @@
-header, .footer-bar, .contact-info {
+#alert {
+    text-align: center;
+  }
+  
+  header, footer {
     width:100%;
     overflow:hidden;
-    color: black;
-    background-color: #41acc0;
+    color: white;
+    background-color: #026c80;
     text-align: center;
     padding: 1rem;
     font-family: 'PT Sans Narrow', sans-serif;
   }
   
   header {
-      background-color:  #1ca0b8;
+      background-color  #026c80;
       display: flex;
       align-items:center;
       justify-content:center;
   }
   
   header img {
-      max-width: 80%;
+      width: 100px;
     height: auto;
     margin-right: 20px;
   }
   
-  .headings, .ham {
+  .headings {
       display: flex;
     flex-direction: column;
     margin: 0;
@@ -35,45 +39,34 @@ header, .footer-bar, .contact-info {
     margin-top: 10px;
   }
   
-  body {
-    background-color:  #1ca0b8;
-  }
-  
-  main {
-    background-color: white;
-  }
-  
-  main h2 {
-    margin: 0;
-    padding-top: 1rem;
-    padding-bottom: 0.75rem
-  }
-  main p {
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1rem;
+  .ham {
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: white;
     text-align: center;
-    padding: 1rem 0;
+    border: none;
   }
   
   nav {
       margin: 0 auto;
-      max-width: 760px;
-      background-color: #fff;
+      width: 100%;
+      background-color: #78b7ce;
+  }
+  
+  #active {
+    background-color: #000;
+    color: #fff
   }
   
   .navigation {
       list-style: none;
-    padding: 0;
-    margin: 0;
+      padding: 0;
   }
   
   .navigation li {
       display: none;
-  }
-  
-  .contact-info{
-    margin-bottom: 0;
-    padding-top: 0;
   }
   
   .navigation a {
@@ -101,38 +94,139 @@ header, .footer-bar, .contact-info {
     font-family: 'PT Sans Narrow', sans-serif;
   }
   
-  .weather div {
-    text-align: center;
+  .mainh2 {
+    margin-top: 0%;
+  }
+  
+  .herodiv{
+    margin: 10px auto;
+    position: relative;
+    align-items: center;
+  }
+  
+  .herodiv img {
+    max-width: 560px;
+    height: auto;
+  }
+  
+  h3 {
     font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #038fa9;
-    display: block;
+  }
+  
+  .weathersummary {
+    font-family: 'PT Sans Narrow', sans-serif;
     border: 1px solid black;
-    padding: 1.5rem;
-    font-size: medium;
-    font-weight: 700;
-    max-width: 60%;
-    margin: 0.5rem auto;
+    padding: 0.5rem;
+    margin: auto 10px;
+  }
+  
+  .weathersummary h3 {
+    margin-top: 0;
+    text-align: center;
+      text-decoration: underline;
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .stats p {
+    text-align: right;
+    grid-column: 1;
+  }
+  
+  .forecast {
+    display: contents;
+    background-color: #78b7ce;
+    border-radius: 10px;
+    
+  }
+  
+  .forecasttable {
+    margin: 0 auto;
+    font-family: 'PT Sans Narrow', sans-serif;
+  }
+  
+  .forecasttable th {
+    background-color: #00264c;
+    height: 30px;
+    width: 120px;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .forecasttable td {
+    border: 1px solid black;
+    border-collapse: initial;
+    height: 100px;
+    text-align: center;
+  }
+  
+  .forecasttable img {
+    max-width: 90px;
+    height: auto;
+    align-items: center;
+  }
+  
+  .article {
+    margin-bottom: 20px;
+  }
+  .article h3 {
+    text-align: center;
+  }
+  
+  .article img {
+    float: right;
+    max-width: 45%;
+  }
+  
+  .article p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: 20px auto;
+  text-align: center;
+  display: inline;
+  }
+  
+  .contact-info{
+    margin-bottom: 0;
+  }
+  
+  .contact-info img {
+    margin-top: 20px;
+  }
+  
+  .footer-bar {
+    margin-top: 0;
+    padding-top: 0;
   }
   
   .footer-bar div {
     display: inline;
   }
-  
-  #active {
-    background-color: black;
-    color: white;
+  .social {
+    padding: .5em;
+    max-width: 45px;
+    height: auto;
+    opacity: 0.75;
   }
   
-  #article {
-    margin-bottom: 0;
+  .social:hover {
+  opacity: 1;
   }
   
-  .ham {
-    margin-left: 1rem;
+  footer img {
+    max-width: 50%;
   }
   
-  @media only screen and (max-width: 420px) {
-      .ham {
-          margin-right: 1rem;
-    }
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
   }
+  body {
+    background-color:  #1ca0b8;
+  }
+  
