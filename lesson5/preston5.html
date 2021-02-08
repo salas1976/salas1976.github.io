@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Week 04  WDD 230-11: Web FrontEnd Development at Brigham Young University - Idaho">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&amp;family=PT+Sans+Narrow&amp;display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico">
+   
     <title>Weather | Preston</title>
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/forestcast.png">
   </head>
    <body>
-    <header>
+     <div id="alert">
+       <h3> Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
+     </div>
+    <header class=clearfix>
       <picture>
         <img src="images/forestcast.png" height="100" alt="Climateize logo">
       </picture>
@@ -33,39 +37,79 @@
         <li><a class="nav-link" href="#">Gallery</a></li>
       </ul>
     </nav>
-  
-    <main class="clearfix">
-      <h2 class="main2">Preston Idaho</h2>
+       <main class="clearfix">
+       <h1 class="main2">Preston Idaho</h1>
       <div class="herodiv">
        <img src="images/banner.jpg" alt="banner"> 
-        <section clas="weathersummary">
+        <section class="weathersummary">
        <h3>Weather Summary</h3> 
        <div class="stats">
-           <p>Temperature:</p>
-           <p>Wind speed</p>
-           <p>Chance of rain</p>
+           <p>High: xx</p>
+           <p>low : xx</p>
+           <p>Wind: xx</p>
        </div>
-        </section>
+       </section>
       </div>
-          <div>10-Day Weather</div>
-          <div>5-Day Forecast</div>
-          <div>Hourly </div>
-          <div>Top Stories</div>
-          <div id="article">Article</div>
+      <div class="forecast">
+        <h2>Five-day Forecast</h2>
+        <table class="forecasttable">
+          <tr>
+            <th>Monday</th>
+            <th>Thuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td><img src="images/sun.logo.png" alt="weathertoday"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weathertomorrow"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weatherintwodays"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weatherinthreedays"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weatherinfourdays"><br>60 &deg;F</td>
+          </tr>
+        </table>
       </div>
-      <p>We take care and talk about the weather</p>
+      <div class=article>
+        <h2>Article</h3>
+        <img src="images/clouds.jpg" alt="article image">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Labore saepe, incidunt commodi maxime reiciendis quaerat
+          ullam dolores, rerum minima consectetur ipsum, corrupti
+          consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Labore saepe, incidunt commodi maxime reiciendis quaerat
+          ullam dolores, rerum minima consectetur ipsum, corrupti
+          consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Labore saepe, incidunt commodi maxime reiciendis quaerat
+            ullam dolores, rerum minima consectetur ipsum, corrupti
+            consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Labore saepe, incidunt commodi maxime reiciendis quaerat
+              ullam dolores, rerum minima consectetur ipsum, corrupti
+              consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+              
+            </div>
+  </section>
+  <div class="contact-us">
+    <section>
+      <h2>Contact Us</h2>
+      <p><b>Address:</b><br>101 St. Preston, ID</p>
+      <br><p><b>Email:</b><br>Contact@forestcast</p>
+      <br><p><b>Phone:</b><br>(000) 000-0000</p>
+      <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+      <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+      <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+      <a href="https://youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+    </section>
+    <img class="prestonmap" src="images/preston.jpg" alt="prestonmap">
+  </div>
     </main>
     <footer>
-      <div class="contact-info">
-        <h3>Contact Information</h3>
-          <p>Email: Contact@forestcast </p>
-           <p>Phone: (000) 000-0000</p>
-    </div>
-    <div></div>
-      <div class="footer-bar">
+       <div class="footer-bar">
         <p>© 2021 | Miguel Salas | </p>
         <div>Today is:</div>
-        <span id="updatetime"></span>
+        <span id="update">Saturday, 6 February 2021</span>
       </div>
     </footer>
     <script src="js/menu.js"></script>

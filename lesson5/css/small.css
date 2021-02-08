@@ -88,7 +88,7 @@
       display: block;
   }
   
-  h2 {
+  main h1, h2 {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
   }
@@ -104,8 +104,11 @@
   }
   
   .herodiv img {
-    max-width: 560px;
+    max-width: 100px;
     height: auto;
+  }
+  .article h2 {
+    margin: 0;
   }
   
   h3 {
@@ -117,6 +120,8 @@
     border: 1px solid black;
     padding: 0.5rem;
     margin: auto 10px;
+  
+    
   }
   
   .weathersummary h3 {
@@ -132,7 +137,7 @@
   }
   
   .stats p {
-    text-align: right;
+    text-align: left;
     grid-column: 1;
   }
   
@@ -149,16 +154,16 @@
   }
   
   .forecasttable th {
-    background-color: #00264c;
+    background-color: #026c80;
     height: 30px;
     width: 120px;
     color: white;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #026c80;
   }
   
   .forecasttable td {
-    border: 1px solid black;
+    border: 1px solid #026c80;
     border-collapse: initial;
     height: 100px;
     text-align: center;
@@ -188,14 +193,8 @@
   text-align: center;
   display: inline;
   }
+    
   
-  .contact-info{
-    margin-bottom: 0;
-  }
-  
-  .contact-info img {
-    margin-top: 20px;
-  }
   
   .footer-bar {
     margin-top: 0;
@@ -216,9 +215,7 @@
   opacity: 1;
   }
   
-  footer img {
-    max-width: 50%;
-  }
+  
   
   .clearfix:after {
     content: "";
@@ -226,6 +223,6 @@
     clear: both;
   }
   body {
-    background-color:  #1ca0b8;
+    background-color:  #ffffff;
   }
   

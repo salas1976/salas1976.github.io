@@ -2,6 +2,10 @@
 	.headings h1 {
 		font-size: 3rem;
 	}
+	.contact-us {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
 
 	.slogan {
 		letter-spacing: 1.5pt;
@@ -17,7 +21,7 @@
 	display: block;
 	position: absolute;
 	top: 15px;
-	right: 20px;
+	left: 20px;
 	font-family: 'PT Sans Narrow', sans-serif;
 	border: 2px solid black;
 	padding: 1.5rem;
@@ -53,4 +57,10 @@
   footer img {
 	max-width: 20%;
   }
+.prestonmap {
+	max-width: 90%;
+	margin-left: 25%;
+
+
+ }
 }
