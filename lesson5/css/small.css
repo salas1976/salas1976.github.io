@@ -93,6 +93,7 @@
   main h1, h2 {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
+    margin-left: 0.5rem;
   }
   
   .mainh2 {
