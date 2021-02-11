@@ -2,65 +2,49 @@
 	.headings h1 {
 		font-size: 3rem;
 	}
-	.contact-us {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-	}
 
 	.slogan {
 		letter-spacing: 1.5pt;
 		margin-left: 17px;
   }
 
-  .herodiv img {
-	max-width: 759px;
-	margin-right: 45px;
+  .weathersummary {
+	  padding: 0.5rem;
+  }
+  .forecast{
+	  display: contents;
   }
 
-  .weathersummary{
-	display: block;
-	position: absolute;
-	top: 15px;
-	left: 20px;
+	.forecasttable {
 	font-family: 'PT Sans Narrow', sans-serif;
-	border: 2px solid black;
-	padding: 1.5rem;
-	box-shadow: 0 0 30px #111;
-	opacity: .8;
-	padding: 1.5rem;
-	background: radial-gradient(#eee, #8EC6FF);
+	margin-left: 0.5rem;
   }
-
-  .stats {
-	grid-gap: 5px;
-  }
-
   .article img {
-	  margin-bottom: 20px;
+	float: right;
+	max-width: 45%;
+	margin-bottom: 20px;
   }
-
-  .contact-info {
-	display: flex;
-    justify-content: center;
-	margin: 15px auto;
-	max-width: fit-content;  	
-  }
-
-  .contact {
-	  margin-left: 25px;
+  
+  .article p {
+	font-family: 'PT Sans Narrow', sans-serif;
+	display: inline;
   }
 
   footer {
 	  padding-top: 0;
   }
 
-  footer img {
-	max-width: 20%;
+  .contact-us {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
   }
-.prestonmap {
-	max-width: 90%;
-	margin-left: 25%;
 
+  .contact-us img {
+	  display: inline;
+  }
 
- }
+  .prestonmap {
+	  max-width: 90%;
+	  margin: 0 auto;
+  }
 }

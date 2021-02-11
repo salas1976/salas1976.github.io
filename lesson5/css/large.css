@@ -2,7 +2,12 @@
 	.headings h1 {
 		font-size: 3rem;
   }
-  
+
+
+  nav, main, footer {
+    max-width: 760px;
+ }
+
   .navigation {
     display: flex;
     max-width: 960px;
@@ -37,5 +42,13 @@
   .herodiv img {
     max-width: 100%;
   }
-  
+
+  footer {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  footer p, div{
+    margin: 0.5rem auto;
+  }
 }
