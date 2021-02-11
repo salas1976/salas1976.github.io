@@ -1,13 +1,7 @@
 #alert {
     text-align: center;
   }
-  WebFont.load({
-    google: {
-      families: [
-         'fontfamilynameofyourchoice'
-      ]
-    }
-  });
+ 
   
   
   header, footer {
