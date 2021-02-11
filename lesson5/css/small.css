@@ -145,7 +145,7 @@
   }
   
   .forecast {
-    display: contents;
+    display: none;
     background-color: #78b7ce;
     border-radius: 10px;
     
