@@ -224,10 +224,10 @@ opacity: 1;
   clear: both;
 }
 main figure.myphoto {
-  width: 50%;
+  width: 100%;
   margin: 0 0 0 2%;
-  float: right;
+  float: auto;;
 }
-main figure.myphoto img {width: 100%;}
-main figure.myphoto figcaption {text-align: center; font-size: .75rem; }
+main figure.myphoto img {width: 100%;
+}
 
