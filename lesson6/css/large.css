@@ -52,3 +52,17 @@
     margin: 0.5rem auto;
   }
 }
+.weatherSummary {
+  
+  color: white;
+  border: 2px solid black;
+  top: 98%;
+  right: 30px;
+  position: absolute;
+  width: 185px;
+  height: 150px;
+  padding: 10px;
+   box-shadow: 0 0 30px #111;
+    background: radial-gradient(#eee, #8EC6FF);
+
+}

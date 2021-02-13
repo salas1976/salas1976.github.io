@@ -139,16 +139,18 @@ h3 {
 }
 
 .weathersummary{
-    display: block;
-    position: absolute;
-    top: 15px;
-    left: 0.5rem;
-    font-family: 'PT Sans Narrow', sans-serif;
-    border: 2px solid black;
-    box-shadow: 0 0 30px #111;
-    opacity: .8;
+  color: white;
+  border: 2px solid black;
+  top: 98%;
+  right: 30px;
+  position: absolute;
+  width: 185px;
+  height: 150px;
+  padding: 10px;
+   box-shadow: 0 0 30px #111;
     background: radial-gradient(#eee, #8EC6FF);
-  }
+
+}
 
 .forecast {
   display: none;
