@@ -99,16 +99,7 @@ main h1, h2 {
   margin-top: 0%;
 }
 
-.herodiv{
-  margin: 10px auto;
-  position: relative;
-  align-items: center;
-}
 
-.herodiv img {
-  max-width: 100%;
-  height: auto;
-}
 
 .article h2 {
   margin: 0;
