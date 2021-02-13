@@ -230,4 +230,10 @@ main figure.myphoto {
 }
 main figure.myphoto img {width: 100%;
 }
+.weatherhead {
+  grid-column: 1 / 3;
+}
 
+.weatherhead h3 {
+  margin: 0;
+}
