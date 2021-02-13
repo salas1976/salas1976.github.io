@@ -132,12 +132,12 @@ h3 {
 .weathersummary{
   color: white;
   border: 2px solid black;
-  
-  right: 30px;
+  top: auto;
+  right: auto;
   position: absolute;
   width: 185px;
-  height: 150px;
-  padding: 10px;
+  width: 160px;
+  height: 145px
    box-shadow: 0 0 30px #111;
     background: radial-gradient(#eee, #8EC6FF);
 
