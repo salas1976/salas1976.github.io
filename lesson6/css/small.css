@@ -132,7 +132,7 @@ h3 {
 .weathersummary{
   color: white;
   border: 2px solid black;
-  top: auto;
+  top: 38%;
   right: auto;
   position: absolute;
   width: 185px;
