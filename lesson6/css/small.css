@@ -237,3 +237,13 @@ main figure.myphoto img {width: 100%;
 .weatherhead h3 {
   margin: 0;
 }
+.column1 ul,
+.column2 ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+.column1 ul li,
+.column2 ul li {
+  margin: 0;
+}
