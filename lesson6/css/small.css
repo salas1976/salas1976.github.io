@@ -123,24 +123,28 @@ h3 {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-.weathersummary h3 {
-  margin: 0;
-  text-align: center;
-	text-decoration: underline;
+.imageandweather {
+  position: relative; /* this is the parent element for (in this case a <div>) of the weathersummary so it must be relative */
+}
+.weathersummary {
+  position: absolute; /*this is the child of the heroimage so it must be absolute */
+  top: 0;
+  left: 0;
+  display: block;
+  float: left;
+  border: 1px solid black;
+  margin: .2rem .2rem;
+  padding: .5rem;
+  background:radial-gradient(#eee, #8EC6FF);
 }
 
-.weathersummary{
-  color: white;
-  border: 2px solid black;
-  top: 38%;
-  right: auto;
-  position: absolute;
-  width: 185px;
-  width: 160px;
-  height: 145px
-   box-shadow: 0 0 30px #111;
-    background: radial-gradient(#eee, #8EC6FF);
+.weathersummary h3 {
+  margin: .5rem 0;
+}
 
+.weathersummary p {
+  margin: .2rem 0;
+margin: .2rem 0;
 }
 
 .forecast {
@@ -216,13 +220,11 @@ opacity: 1;
   display: table;
   clear: both;
 } 
-.myphoto {
+
+img {
   width: 100%;
-  margin: 0 0 0 2%;
-  float: auto;;
 }
-.myphoto img {width: 100%;
-}
+
 
 
 
