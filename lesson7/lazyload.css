@@ -5,11 +5,5 @@ img {
   margin: 20px auto;
 }
 
-#mark{
-    width: 100%;
-    position: fixed; bottom: 100px;
-    font-size: 12pt;
-    border-bottom: dashed 2px blue;
-}
 
 h1 {text-align: center;}
