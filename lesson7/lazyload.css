@@ -1,7 +1,7 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*/
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 
@@ -14,7 +14,6 @@ h1, picture {
 
 img {border: double;}
 
-/* This causes the placeholder to blur and the image to blur for half a second */
 img[data-src] {
     filter: blur(0.2em);
   }
