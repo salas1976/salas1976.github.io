@@ -1,6 +1,5 @@
-table,
-th,
-td {
+table th td
+ {
     border: 1.5px solid #aaacab;
     font-family: "Ubuntu", sans-serif;
     border-collapse: collapse;
