@@ -124,10 +124,10 @@ h3 {
 }
 
 .imageandweather {
-  position: relative; /* this is the parent element for (in this case a <div>) of the weathersummary so it must be relative */
+  position: relative; 
 }
 .weathersummary {
-  position: absolute; /*this is the child of the heroimage so it must be absolute */
+  position: absolute; 
   top: 0;
   left: 0;
   display: block;
@@ -351,12 +351,11 @@ img {
   
 #stormcenter #submit {
   margin-top: 20px;
-  width:80%;
-  border-radius: 20px;
+  width:30%;
   max-width: 25rem;
-  background-color: #8EC6FF;
+  background-color: #038fa9;
   font-size: 20px;
-  height: 45px;
+  height: 40px;
   border: none;
   color: black;
 }
