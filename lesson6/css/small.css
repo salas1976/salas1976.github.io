@@ -260,6 +260,126 @@ img {
   height: auto;
   border-radius: var(--b-radius) var(--b-radius) 0 0;
 }
+}
+
+.thankyoumain h2{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.thankyoumain p {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.thankyoumain {
+  margin-bottom: 1.25em;
+}
+
+.submitbutton {
+  margin-bottom: 1em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1rem;
+}
+
+#submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stormcenter {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#stormcenter h2, legend {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1.25em;
+}
+
+#stormcenter label {
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 1em;
+}
+
+#stormcenter .formfield label {
+  display:flex;
+  flex-direction: column;
+}
+#stormcenter .formfield .dangerlevel {
+  flex-direction: row;
+}
+  
+#stormcenter .formfield .dangerlevel .optionvalue {
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+  
+#stormcenter input {
+  height:30px;
+  border: 1px solid rgba(85, 85, 85, 0.288);
+} 
+#stormcenter input:required:invalid {
+  border-left: 6px solid rgba(255, 0, 0, 0.568);
+}
+
+#stormcenter input:required:valid {
+    border-left: 6px solid green;
+  }
+  #stormcenter input[type=radio] {
+    display: block;
+  }
+  
+  #stormcenter #comments {
+    height: 80px;
+  }
+  
+  #stormcenter label {
+      margin-left: 20px;
+      text-align: left;
+      padding: 15px 0px 0px;
+  }
+
+  #stormcenter .formfield {
+    margin-top: 10px;
+  }
+  
+#stormcenter #submit {
+  margin-top: 20px;
+  width:80%;
+  border-radius: 20px;
+  max-width: 25rem;
+  background-color: #8EC6FF;
+  font-size: 20px;
+  height: 45px;
+  border: none;
+  color: black;
+}
+
+#stormcenter #submit:hover{
+  background-color:  #ffd166;
+  border: black;
+  border-style: solid;
+}
+
+#stormcenter fieldset{
+  border: 1px solid rgba(85, 85, 85, 0.288);
+  padding: 0 2em 1em 1em;
+  border-radius: 5px;
+}
+  
+#stormcenter legend {
+  text-align: left;
+  font-weight: 400;
+  color: #353E46;
+  font-size: 1.4em;
+  padding: 0.75em;
+}
 
 
 
