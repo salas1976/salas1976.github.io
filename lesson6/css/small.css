@@ -291,7 +291,7 @@ img {
 }
 
 #stormcenter {
-  max-width: 750px;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -367,9 +367,9 @@ img {
 }
 
 #stormcenter fieldset{
-  border: 1px solid rgba(85, 85, 85, 0.288);
-  padding: 0 2em 1em 1em;
-  border-radius: 5px;
+  border: 2px solid rgba(60, 60, 60, 0.2);
+  padding: 0 3em 2em 2em;
+  border-radius: 1px;
 }
   
 #stormcenter legend {
