@@ -37,92 +37,76 @@
       </ul>
     </nav>
        <main class="clearfix">
-        <h1>Preston Idaho</h1>
-        <div class="imageandweather">
-          <picture class="heroimage">
-              <source media="(max-width: 500px)" srcset="images/hero500.jpeg">
-              <source media="(max-width: 800px)" srcset="images/hero800.jpeg">
-              <img src="images/hero1100.jpeg" alt="preston, idaho mountains">
-          </picture> 
-          <aside class="weathersummary">
-              <h3>Weather Summary</h3>
-              <p>Currently: Snowing</p>
-              <p>Temperature: <span id="temp">32</span>°F</p>
-              <p>Wind Speed: <span id="speed">14</span> mph</p>
-              <p><span id="chill">Wind Chill is 22°F</span></p>
-          </aside>
-      </div>
         
-           
-      <div class="forecast">
-        <h2>Five-day Forecast</h2>
-        <table class="forecasttable">
-          <tr>
-            <th>Monday</th>
-            <th>Thuesday</th>
-            <th>wednesday</th>
-            <th>thursday</th>
-            <th>Friday</th>
-          </tr>
-          <tr>
-            <td><img src="images/sun.logo.png" alt="weathertoday"><br>60 &deg;F</td>
-            <td><img src="images/sun.logo.png" alt="weathertomorrow"><br>60 &deg;F</td>
-            <td><img src="images/sun.logo.png" alt="weatherintwodays"><br>60 &deg;F</td>
-            <td><img src="images/sun.logo.png" alt="weatherinthreedays"><br>60 &deg;F</td>
-            <td><img src="images/sun.logo.png" alt="weatherinfourdays"><br>60 &deg;F</td>
-          </tr>
-        </table>
-      </div>
-      <div class=article>
-        <h2>Article</h2>
-        <img src="images/clouds.jpg" alt="article image">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Labore saepe, incidunt commodi maxime reiciendis quaerat
-          ullam dolores, rerum minima consectetur ipsum, corrupti
-          consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Labore saepe, incidunt commodi maxime reiciendis quaerat
-          ullam dolores, rerum minima consectetur ipsum, corrupti
-          consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Labore saepe, incidunt commodi maxime reiciendis quaerat
-            ullam dolores, rerum minima consectetur ipsum, corrupti
-            consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Labore saepe, incidunt commodi maxime reiciendis quaerat
-              ullam dolores, rerum minima consectetur ipsum, corrupti
-              consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
-              
-            </div>
-  
-  <div class="contact-us">
-    <section>
-    <h2>Contact Us</h2>
-      <p><b>Address:</b><br>101 St. Preston, ID</p>
-      <br><p><b>Email:</b><br>Contact@forestcast</p>
-      <br><p><b>Phone:</b><br>(000) 000-0000</p>
-      <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
-      <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
-      <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
-      <a href="https://youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
-    </section>
-    <img class="prestonmap" src="images/preston.jpg" alt="prestonmap">
-  </div>
-    </main>
-    <footer>
-       <div class="footer-bar">
-        <p>© 2021 | Miguel Salas | </p>
-        <div>Today is:</div>
-        <span id="updatetime"></span>
-      </div>
-    </footer>
-    <script src="js/menu.js"></script>
-    <script src="js/currentdate.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/fontload.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-  </body>
-  
-  
-  
+            <form method="GET" action="thanks.html">
+                <div id="stormcenter">
+                   <h2>Storm Report</h2>
+                   <fieldset>
+                      <legend>Personal Information</legend>
+                   <div class="formfield">
+                      <label>Full Name: <input type="text" name="fullname" id="fullname" title="Must be at least 5 characters" pattern="^[a-zA-Z\s\.\-]{5,}$" required=""></label>
+                   </div>
+                   <div class="formfield">
+                      <label>Email: <input type="email" name="email" id="email" placeholder="email@address.com"></label>
+                   </div>
+                   <div class="formfield">
+                      <label>Phone Number: <input type="tel" name="phonenumber" id="phonenumber" minlength="10" placeholder="999-999-9999" pattern="^\s*(?:\+?(\d{1,3}))?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})(?: *x(\d+))?\s*$" required=""></label>
+                   </div>
+                   <div class="formfield">
+                      <label>Zip Code: <input type="number" name="zipcode" id="zipcode" min="9999" required=""></label>
+                   </div>
+                </fieldset>
+                <fieldset>
+                   <legend>Storm Information</legend>
+                   <div class="formfield">
+                      <label>Storm Date: <input type="date" name="stormdate"></label>
+                   </div>
+                   <div class="formfield">
+                      <label>Storm Type: <input list="stormtypes" name="stormtype" id="stormtype">
+                         <datalist id="stormtypes">
+                            <option value="Flash Flood">
+                            </option><option value="Hail">
+                            </option><option value="Hurricane">
+                            </option><option value="Thunderstorm">
+                            </option><option value="Tornado">
+                         </option></datalist>
+                      </label>
+                   </div>
+                   <div class="formfield">
+                      <label><span id="severitydisplay">Severity: 5</span><input type="range" name="severity" id="severity" min="1" max="10" onchange="updateSeverity(this.value);" value="5"></label>
+                   </div>
+                   <div class="formfield">
+                      <label class="storm">Storm Region:
+                         <select name="region">
+                            <option value="" selected="" disabled="">Select Region...</option>
+                            <option value="preston">Preston</option>
+                            <option value="soda springs">Soda Springs</option>
+                            <option value="fish haven">Fish Haven</option>
+                         </select>
+                      </label>
+                    </div>
+                   <div class="formfield">
+                      <label class="dangerlevel">User Danger Level:</label>
+                      <label class="dangerlevel"><input type="radio" name="userindangerlevel" value="Yes"><span class="optionvalue">Yes</span></label>
+                      <label class="dangerlevel"><input type="radio" name="userindangerlevel" value="Maybe"><span class="optionvalue">Maybe</span></label>
+                      <label class="dangerlevel"><input type="radio" name="userindangerlevel" value="No"><span class="optionvalue">No</span></label>
+                   </div>
+                   <div class="formfield">
+                      <label>Comments: <textarea name="comments" id="comments"></textarea></label>
+                   </div>
+                </fieldset>
+                 <div class="submitbutton">
+                    <input name="submit" id="submit" type="submit" value="Submit">
+                 </div>
+                 </div>
+              </form>
+          </main>
+          <script src="js/menu.js"></script>
+          <script src="js/date.js"></script>
+          <script src="js/severity.js"></script>
+          <script src="js/lazyload.js"></script>
+          <script src="js/webfontload.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+          <script src="js/windchill.js"></script>
+          </body>
   </html>
