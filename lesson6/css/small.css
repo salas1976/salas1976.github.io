@@ -260,7 +260,7 @@ img {
   height: auto;
   border-radius: var(--b-radius) var(--b-radius) 0 0;
 }
-}
+ /* ---------- Storm Center ---------- */
 
 .thankyoumain h2{
   font-family: 'PT Sans Narrow', sans-serif;
