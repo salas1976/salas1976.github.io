@@ -379,6 +379,58 @@ img {
   font-size: 1.4em;
   padding: 0.75em;
 }
+.herodiv img {
+  display: block;
+  margin: 10px auto;
+}
+.hero-logo {
+  max-width: 600px;
+}
+
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  margin-bottom: 1em;
+  padding: 1em 1em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.cards h2 {
+  margin-top: 5px;
+}
+
+.cards h4 {
+  margin: 0.5em 0;
+}
+
+.cards section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(142, 198, 255, 0.35);
+}
+
+.cards img {
+  margin-top: 15px;
+}
+.cards section img {
+  padding-top: 35px;
+  border-radius: 18px;
+  width: 80%;
+  height: auto;
+  padding: 5px;
+  filter: blur(0em);
+}
+
+.cards section:hover {
+  background-color: #8EC6FF;
+
+}
+
+
 
 
 
