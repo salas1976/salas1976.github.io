@@ -1,0 +1,184 @@
+#alert {
+    text-align: center;
+  }
+  
+  header, footer {
+    font-family: 'PT Sans Narrow', sans-serif;
+    width:100%;
+    overflow:hidden;
+    color: white;
+    background-color: #00264c;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  header {
+      background-color: #00264c;
+      display: flex;
+      align-items:center;
+      justify-content:center;
+  }
+  
+  header img {
+      width: 100px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .headings {
+      display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+  .headings h1, p {
+    margin: 0;
+  }
+  
+  .slogan {
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+  
+  .logoimage img {
+    width: 100%;
+  }
+  
+  .ham {
+    margin-top: 20px;
+    margin-left: 45px;
+    background-color: transparent;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    border: none;
+  }
+  
+  nav {
+      margin: 0 auto;
+      width: 100%;
+      background-color: #8EC6FF;
+  }
+
+  #active {
+    background-color: #000;
+    color: #fff
+  }
+  
+  .navigation {
+      list-style: none;
+      padding: 0;
+  }
+  
+  .navigation li {
+      display: none;
+  }
+  
+  .navigation a {
+      display: block;
+      padding: 0.75rem;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.25rem;
+  }
+  
+  .navigation a:hover {
+      color: white;
+      background-color: black;
+  }
+  
+  .responsive li {
+      display: block;
+  }
+
+  .herodiv img {
+    display: block;
+    margin: 10px auto;
+  }
+  .hero-logo {
+    max-width: 600px;
+  }
+
+  .cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 1em;
+    padding: 1em 1em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border-style: solid;
+    border-width: 2px;
+  }
+  
+  .cards h2 {
+    margin-top: 5px;
+  }
+
+  .cards h4 {
+    margin: 0.5em 0;
+  }
+
+  .cards section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(142, 198, 255, 0.35);
+  }
+  
+  .cards img {
+    margin-top: 15px;
+  }
+  .cards section img {
+    padding-top: 35px;
+    border-radius: 18px;
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    filter: blur(0em);
+  }
+  
+  .cards section:hover {
+    background-color: #8EC6FF;
+  
+  }
+
+  .contact-info{
+    margin-bottom: 0;
+  }
+  
+  .contact-info img {
+    margin-top: 20px;
+  }
+  
+  .footer-bar {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  
+  .footer-bar div {
+    display: inline;
+  }
+  .social {
+    padding: .5em;
+    max-width: 45px;
+    height: auto;
+    opacity: 0.75;
+  }
+  
+  .social:hover {
+  opacity: 1;
+  }
+  
+  .mapimage img {
+    width: 80%;
+    margin: 0 10%;
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
