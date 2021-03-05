@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgb(201, 76, 76);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  margin: 1em 0;
+  box-shadow: 0 0 1.5em 1.5em rgba(0, 0, 0, 0.35);
+  padding: 1em;
+}
+
+section {
+  border: .25em solid rgba(0, 0, 0);
+  padding: 0.75em;
+  color: #000;
+  margin: .2em;
+}
+
+h1, h2{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 1.75em;
+}
+
+section img {
+  box-shadow: 6px 6px 8px black;
+  max-height: 50vw;
+}
+
+section:hover {
+  background-color: rgba(255, 255, 255, 0.596);
+}
+
+p {
+    margin: 0.25em auto;
+}
+
+img {
+    margin-top: 1em;
+}
+
+@media screen and (min-width: 35em) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section img{
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 65em) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
