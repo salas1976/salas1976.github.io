@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Week 04  WDD 230-11: Web FrontEnd Development at Brigham Young University - Idaho">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&amp;family=PT+Sans+Narrow&amp;display=swap" rel="stylesheet">
+   
+    <title>Weather | Preston</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/forestcast.png">
+  </head>
+   <body>
+     <div id="message"></div>
+     <header class=clearfix>
+      <picture>
+        <img src="images/forestcast.png" height="100" alt="Climateize logo">
+      </picture>
+      <section class="headings">
+
+        <h1>The Weather Site</h1>
+        <p class="slogan">Crazy Rain</p>
+      </section>
+      <button class="ham">☰</button>
+    </header>
+    <nav class="clearfix">
+      <ul class="navigation">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a id="active" class="nav-link" href="../lesson6/preston6.html">Preston</a></li>
+        <li><a class="nav-link" href="#">Soda Springs</a></li>
+        <li><a class="nav-link" href="#">Fish Haven</a></li>
+        <li><a class="nav-link" href="../lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a class="nav-link" href="../lesson7/gallery-7.html">Gallery</a></li>
+    </nav>
+       <main class="clearfix">
+        <h1>Preston Idaho</h1>
+        <div class="imageandweather">
+          <picture class="heroimage">
+              <source media="(max-width: 500px)" srcset="images/hero500.jpeg">
+              <source media="(max-width: 800px)" srcset="images/hero800.jpeg">
+              <img src="images/hero1100.jpeg" alt="preston, idaho mountains">
+          </picture> 
+          <aside class="weathersummary">
+              <h3>Weather Summary</h3>
+              <p>Currently: Snowing</p>
+              <p>Temperature: <span id="temp">32</span>°F</p>
+              <p>Wind Speed: <span id="speed">14</span> mph</p>
+              <p><span id="chill">Wind Chill is 22°F</span></p>
+          </aside>
+      </div>
+        
+           
+      <div class="forecast">
+        <h2>Five-day Forecast</h2>
+        <table class="forecasttable">
+          <tr>
+            <th>Monday</th>
+            <th>Thuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>Friday</th>
+          </tr>
+          <tr>
+            <td><img src="images/sun.logo.png" alt="weathertoday"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weathertomorrow"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weatherintwodays"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weatherinthreedays"><br>60 &deg;F</td>
+            <td><img src="images/sun.logo.png" alt="weatherinfourdays"><br>60 &deg;F</td>
+          </tr>
+        </table>
+      </div>
+      <div class=article>
+        <h2>Article</h2>
+        <img src="images/clouds.jpg" alt="article image">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Labore saepe, incidunt commodi maxime reiciendis quaerat
+          ullam dolores, rerum minima consectetur ipsum, corrupti
+          consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Labore saepe, incidunt commodi maxime reiciendis quaerat
+          ullam dolores, rerum minima consectetur ipsum, corrupti
+          consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Labore saepe, incidunt commodi maxime reiciendis quaerat
+            ullam dolores, rerum minima consectetur ipsum, corrupti
+            consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Labore saepe, incidunt commodi maxime reiciendis quaerat
+              ullam dolores, rerum minima consectetur ipsum, corrupti
+              consequatur placeat totam veritatis dolorum cumque mollitia ut.</p>
+              
+            </div>
+  
+  <div class="contact-us">
+    <section>
+    <h2>Contact Us</h2>
+      <p><b>Address:</b><br>101 St. Preston, ID</p>
+      <br><p><b>Email:</b><br>Contact@forestcast</p>
+      <br><p><b>Phone:</b><br>(000) 000-0000</p>
+      <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+      <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+      <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+      <a href="https://youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+    </section>
+    <img class="prestonmap" src="images/preston.jpg" alt="prestonmap">
+  </div>
+    </main>
+    <footer>
+       <div class="footer-bar">
+        <p>© 2021 | Miguel Salas | </p>
+        <div>Today is:</div>
+        <span id="updatetime"></span>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/fontload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  </body>
+  
+  
+  
+  </html>
