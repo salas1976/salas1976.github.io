@@ -13,7 +13,7 @@ main {
 }
 
 section {
-  border: .25em solid rgba(0, 0, 0);
+  border: .2em solid rgba(0, 0, 0);
   padding: 0.75em;
   color: #000;
   margin: .2em;
@@ -34,7 +34,8 @@ h2{
 
 section img {
   box-shadow: 6px 6px 8px black;
-  max-height: 50vw;
+  max-height: 30vw;
+  border-radius: 50%;
 }
 
 section:hover {
