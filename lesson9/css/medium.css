@@ -1,0 +1,63 @@
+@media only screen and (min-width: 53em) {
+	.headings h1 {
+		font-size: 3rem;
+	}
+
+	.slogan {
+		letter-spacing: 1.5pt;
+		margin-left: 3%;
+  }
+
+  .img-container {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.cards {
+  max-width: 700px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1em;
+  padding: 0 1em;
+}
+  
+.cards section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 1em auto;
+}
+
+.cards section:nth-child(odd) img {
+  grid-column: 1;
+}
+
+.cards section:nth-child(odd) #details {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cards section #details {
+  padding: 70px 0;
+  text-align: center;
+}
+
+  .contact-info {
+	display: flex;
+    flex-direction: row-reverse;
+	margin: 15px auto;
+	max-width: fit-content;  	
+  }
+
+  .contact {
+    margin-left: 25px;
+    margin: auto 0;
+  }
+
+  footer {
+	  padding-top: 0;
+  }
+
+  .mapimage img {
+	  max-width: 500px;
+  }
+}
