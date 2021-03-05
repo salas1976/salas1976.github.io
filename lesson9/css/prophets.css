@@ -17,6 +17,7 @@ section {
   padding: 0.75em;
   color: #000;
   margin: .2em;
+  border-radius: 8%;
 }
 
 h1, h2{
