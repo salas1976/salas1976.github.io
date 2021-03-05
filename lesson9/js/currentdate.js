@@ -10,3 +10,4 @@ console.log(today);
 
 const dayNumber = today.getDay();
 console.log(dayNumber);
+
