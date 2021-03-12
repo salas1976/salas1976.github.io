@@ -43,13 +43,17 @@
               <source media="(max-width: 800px)" srcset="images/hero800.jpeg">
               <img src="images/hero1100.jpeg" alt="preston, idaho mountains">
           </picture> 
-          <aside class="weathersummary">
-              <h3>Weather Summary</h3>
-              <p>Currently: Snowing</p>
-              <p>Temperature: <span id="temp">32</span>°F</p>
-              <p>Wind Speed: <span id="speed">14</span> mph</p>
-              <p><span id="chill">Wind Chill is 22°F</span></p>
-          </aside>
+          <section class="weathersummary">
+            <h3>Weather Summary</h3>
+            <div class="stats">
+              
+              <p>Current Temp: <span id="current-temp"></span>&deg;</p>
+              <p>High: <span id="tempmax"></span>&deg;F</p>
+              <p>Wind Chill: <span id="windchill"></span></p>
+              <p>Humidity: <span id="humidity"></span>%</p>
+              <p>Wind Speed: <span id="speed"></span> mph </p>
+            </div>
+        </section>
       </div>
         
            
