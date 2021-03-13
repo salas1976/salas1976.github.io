@@ -1,12 +1,10 @@
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 76em) {
 	.headings h1 {
 		font-size: 3rem;
   }
 
 
-  nav, main, footer {
-    max-width: 760px;
- }
+  
 
   .navigation {
     display: flex;
@@ -35,7 +33,7 @@
   }
   
   main {
-    max-width: 760px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 
@@ -80,4 +78,10 @@
 margin-top: 1em;
 padding: 0;
 text-align: center;
+}
+.img-container {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.img-box:hover {
+  box-shadow: .15em .1em .85em;
 }
