@@ -397,6 +397,7 @@ img {
   padding: 1em 1em;
   font-family: 'PT Sans Narrow', sans-serif;
   border-style: solid;
+  border-radius: 10px;
   border-width: 2px;
 }
 
@@ -412,10 +413,12 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #01D7EB;
+  border-radius: 10px;
 }
 
 .cards img {
   margin-top: 15px;
+  border-radius: 10px;
 }
 .cards section img {
   padding-top: 35px;
