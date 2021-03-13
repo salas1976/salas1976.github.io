@@ -1,10 +1,12 @@
-@media only screen and (min-width: 76em) {
+@media only screen and (min-width: 760px) {
 	.headings h1 {
 		font-size: 3rem;
   }
 
 
-  
+  nav, main, footer {
+    max-width: 760px;
+ }
 
   .navigation {
     display: flex;
@@ -33,7 +35,7 @@
   }
   
   main {
-    max-width: 1100px;
+    max-width: 760px;
     margin: 0 auto;
   }
 
@@ -63,21 +65,19 @@
   0.25em 0.25em 0.5em rgba(0, 0, 0, .3);
 }
 .cards {
-  max-width: 64rem;
+  max-width: 1100px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
-  
+  margin-bottom: 1em;
 }
 
 .cards section {
   display: block;
 }
 
-
-.img-container {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.img-box:hover {
-  box-shadow: .15em .1em .85em;
+.cards section #details {
+margin-top: 1em;
+padding: 0;
+text-align: center;
 }
