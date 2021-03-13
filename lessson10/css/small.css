@@ -392,6 +392,7 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
+  margin: 0 auto;
   margin-bottom: 1em;
   padding: 1em 1em;
   font-family: 'PT Sans Narrow', sans-serif;
