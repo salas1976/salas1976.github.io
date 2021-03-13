@@ -61,12 +61,12 @@
   display: block;
   margin: 0 auto;
   margin-bottom: 1em;
-  padding: 0 1em;
+  padding: 10px;
 }
   
 .cards section {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns:2, 1fr;
   margin: 1em auto;
 }
 
