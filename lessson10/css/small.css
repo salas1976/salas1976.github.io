@@ -107,10 +107,7 @@ main h1, h2 {
   margin: 0;
 }
 
-.article {
-  margin-bottom: 200px;
-  margin-left: 0.5rem;
-}
+
 
 .article {
   align-items: center;
@@ -180,7 +177,7 @@ margin: .2rem 0;
 }
 
 .article {
-  margin-bottom: 20px;
+  margin-bottom: 200px;
   margin-left: 0.5rem;
 }
 .article h3 {
