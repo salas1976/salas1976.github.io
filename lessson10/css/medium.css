@@ -1,8 +1,8 @@
-@media only screen and (min-width: 560px) {
-	.headings h1 {
+@media only screen and (min-width: 53em) {
+  
+  .headings h1 {
 		font-size: 3rem;
 	}
-
 	.slogan {
 		letter-spacing: 1.5pt;
 		margin-left: 17px;
