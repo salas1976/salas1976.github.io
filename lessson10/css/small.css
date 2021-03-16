@@ -214,11 +214,7 @@ margin: .2rem 0;
 opacity: 1;
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-} 
+ 
 
 img {
   width: 100%;
@@ -429,7 +425,11 @@ img {
 
 }
 
-
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
