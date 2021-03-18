@@ -70,7 +70,7 @@
 }
 
 .cards section:nth-child(odd) img {
-  grid-column: 1;
+  grid-column: 2;
 }
 
 .cards section:nth-child(odd) #details {
