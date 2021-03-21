@@ -77,9 +77,7 @@
     margin: 0 auto;
   }
 }
-  .gallery {
-  grid-template-columns: 1fr 1fr;
-}  
+  
 .img-container {
     grid-template-columns: 1fr 1fr;
 }

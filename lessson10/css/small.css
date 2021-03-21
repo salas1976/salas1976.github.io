@@ -405,7 +405,7 @@ img {
 .cards section {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(142, 198, 255, 0.35);
+  background-color: rgba(12, 114, 216, 0.35);
 }
 
 .cards img {
@@ -421,7 +421,7 @@ img {
 }
 
 .cards section:hover {
-  background-color: rgba(142, 198, 255, 0.35);
+  background-color: rgba(45, 6, 138, 0.35);
 
 }
 
