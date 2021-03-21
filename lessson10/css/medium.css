@@ -16,13 +16,13 @@
     margin: 1em auto;
   }
   
-  .cards section:nth-child(odd) img {
-    grid-column: 2;
+  .cards section:nth-child(2) img {
+    grid-column: 1;
+    grid-row: 1;
   }
   
-  .cards section:nth-child(odd) #details {
+  .cards section:nth-child(2) #details {
     grid-column: 2;
-    grid-row: 1;
   }
   
   .cards section #details {
@@ -30,55 +30,55 @@
     text-align: center;
   }
   .headings h1 {
-		font-size: 3rem;
-	}
-	.slogan {
-		letter-spacing: 1.5pt;
-		margin-left: 17px;
+    font-size: 3rem;
+  }
+  .slogan {
+    letter-spacing: 1.5pt;
+    margin-left: 17px;
   }
 
   .weathersummary {
-	  padding: 0.5rem;
+    padding: 0.5rem;
   }
   .forecast{
-	  display: contents;
+    display: contents;
   }
 
-	.forecasttable {
-	font-family: 'PT Sans Narrow', sans-serif;
-	margin-left: 11rem;
+  .forecasttable {
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin-left: 11rem;
   }
   .article img {
-	float: right;
-	max-width: 45%;
-	margin-bottom: 20px;
+  float: right;
+  max-width: 45%;
+  margin-bottom: 20px;
   }
   
   .article p {
-	font-family: 'PT Sans Narrow', sans-serif;
-	display: inline;
+  font-family: 'PT Sans Narrow', sans-serif;
+  display: inline;
   }
 
   footer {
-	  padding-top: 0;
+    padding-top: 0;
   }
 
   .contact-us {
-	  display: grid;
-	  grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .contact-us img {
-	  display: inline;
+    display: inline;
   }
 
   .prestonmap {
-	  max-width: 90%;
-	  margin: 0 auto;
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
   .gallery {
-	grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }  
 .img-container {
     grid-template-columns: 1fr 1fr;
