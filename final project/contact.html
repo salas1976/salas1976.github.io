@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Week 04  WDD 230-11: Web FrontEnd Development at Brigham Young University - Idaho">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&amp;family=PT+Sans+Narrow&amp;display=swap" rel="stylesheet">
+   
+    <title>Final Project</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+  
+  </head>
+   <body>
+     <div id="message"></div>
+     <header class=clearfix>
+      <picture>
+        
+      </picture>
+      <section class="headings">
+
+        <h1>Chamber of Commerce</h1>
+        <p class="slogan"></p>
+      </section>
+      <button class="ham">☰</button>
+    </header>
+    <nav class="clearfix">
+      <ul class="navigation">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="city.html">City</a></li>
+        <li><a class="nav-link" href="join.html">Join</a></li>
+        <li><a class="nav-link" href="directory.html">Directory</a></li>
+       
+        <li><a class="nav-link" id="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form method="GET" action="thanks.html">
+          <h1>Contact us</h1>
+          <h2>Our goal is to call you back in less than 24 hrs</h2>
+          <fieldset>
+              <legend>Information</legend>
+              <label>First Name *<input type="text" name="fname" pattern="[A-Za-z ]{5,}" required></label>
+              <label>Last Name *<input type="text" name="lname" pattern="[A-Za-z ]{5,}" required></label>
+              <label>Email *<input type="email" name="email" placeholder="email@address.com" required></label>
+              <label>Phone<input type="tel" name="phone" minlength="10" placeholder="1234445555" required></label>
+          </fieldset>
+          <fieldset>
+              <legend>Additional Info</legend>
+              <label>Comments: <textarea name="comments" rows="10" cols="38" placeholder="Comments here..."></textarea></label>
+          </fieldset>
+          <input class="submitbutton" name="submit" id="submit" type="submit" value="Submit">
+      </form>
+
+      <table>
+          <thead>
+              <tr>
+                  <th colspan="3">Board of Directors</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th>Chris Yadon</th>
+                  <th>Board Chair</th>
+                  <th>chris@gmail.com</th>
+              </tr>
+              <tr>
+                  <th>Kirt Michaelis</th>
+                  <th>Vice-President</th>
+                  <th>kirt@gamil.com</th>
+              </tr>
+              <tr>
+                  <th>Jeremy Hafen</th>
+                  <th>Marketing Chair</th>
+                  <th>Jeremy@gamil.com</th>
+              </tr>
+              <tr>
+                  <th>Janae Moss</th>
+                  <th>Treasurer</th>
+                  <th>jane@gmail.com</th>
+              </tr>
+              
+          </tbody>
+      </table>
+      <section class="embed">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.299483832693!2d-111.6587659846086!3d40.26909707938247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874d9085c9d51e69%3A0xd89a651b8c56ce67!2s2696%20N%20University%20Ave%20Suite%20220%2C%20Provo%2C%20UT%2084604!5e0!3m2!1sen!2sus!4v1618102266472!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
+</section>
+      <section class="info">
+          <div class="company">
+              <h4>Utah Valley Chamber of Commerce</h4>
+              <p>2696 N University Ave Suite 220</p>
+              <p>Provo, UT 84604</p>
+              <p>Phone: 385-482-2555</p>
+          </div>
+
+          <div class="socialmedia">
+              <a class="smlogo" href="https://www.facebook.com/southjordanchamber/" target="blanket">
+                  <img src="images/facebook-logo.png" alt="Facebook icon"/>
+              </a>
+              <a class="smlogo" href="https://www.youtube.com/channel/UC_HkbNDcX8VzPjeDdPItI5Q" target="blanket">
+                  <img src="images/youtube-logo.png" alt="youtube icon"/>
+              </a>
+              <a class="smlogo" href="https://twitter.com/SJCofCommerce" target="blanket">
+                  <img src="images/twitter-logo.png" alt="twitter icon"/>
+              </a>
+          </div>
+  </section> 
+
+  </main>
+    <footer>
+       <div class="footer-bar">
+        <p> </p>
+        <div>Today is:</div>
+        <span id="updatetime"></span>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/lazyload.js"></script>
+  </body>
+  
+  
+  
+  </html>
+              
+              
+              

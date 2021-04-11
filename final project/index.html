@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  
+  <title>Final Project</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <link rel="shortcut icon" href="images/forestcast.png">
+</head>
+
+<body>
+  
+  <header class="clearfix">
+    <picture>
+    <img src="" height="100" alt="">
+    </picture>
+    <section class="headings">
+      <h1>Chamber of Commerce</h1>
+      <p class="slogan"></p>
+    </section>
+    <button class="ham">&#9776;</button>
+  </header>
+  <nav class="clearfix">
+    <ul class="navigation">
+      <li><a id="active" class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="city.html">City</a></li>
+      <li><a class="nav-link" href="join.html">Join</a></li>
+      <li><a class="nav-link" href="directory.html">Directory</a></li>
+      
+      <li><a class="nav-link" href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="clearfix">
+    <div class="herodiv">
+        
+        <h1></h1>
+        <div class="imageandweather">
+          <picture class="heroimage">
+              
+              <img src="images/Oremcity.jpeg" alt="Orem">
+          </picture> 
+         
+      </div>
+      <section class="weathersummary">
+        
+        <div class="stats">
+          <p>Town name: <span id="townname"></span></p>
+          <p>Now: <span id="current-temp"></span>&deg;</p>
+          <p>High: <span id="tempmax"></span>&deg;F</p>
+          <p>Wind Speed: <span id="speed"></span> mph </p>
+          <p>Humidity: <span id="humidity"></span>%</p>
+          
+        </div>
+    </section>
+  </div>
+  
+       
+   
+      
+      
+      <section class=business>
+        <h1>Our Members</h1>
+        <div class="bz">
+            <h2>Nu Skin</h2>
+            <img src="images/nuskin.jpg" alt="merit medical">
+            <p>Nu Skin Enterprises,75 W Center St <br>Provo, UT 84604</p>
+            <p>Phone: (801) 253-1600</p>
+        </div>
+        <div class="bz">
+            <h2>U of U Health Parkway Urgent Care</h2>
+            <img src="images/thumbnail.jpeg" alt="Intercap Lending">
+            <p>145 W Unnicersity Pkwy, <br>Orem, UT 84058</p>
+            <p>Phone: (801) 234-8600</p>
+        </div>
+        <div class="bz">
+            <h2> America first Credit Union</h2>
+            <img src="images/macu.jpeg" alt="MACU">
+            <p>758 E Mill Rd, <br>Vineyard, UT 84058</p>
+            <p>Phone: (800) 999-3961</p>
+        </div>
+        <div class="ccommerce">
+          <p>The Utah Valley drew settlers to its rich soils and plentiful agriculture throughout the second half of the 19th century. Wilson H. Dusenberry recognized the need to create an organization that would support and promote business in the area. In September of 1887, he joined with James Dunn and A.A. Noon to create the Provo Chamber of Commerce. Within the first year, the chamber united sixty members, and boasted of its unparalleled success in economic development and support.</p>
+          <p>The Provo Chamber of Commerce continued to grow as a member business network for nearly a century. In 1985, the Provo and Orem Chambers merged to form the Provo/Orem Chamber of Commerce, which was led by Steve Densley for 30 years. Densley worked tirelessly to promote positive business relationships with local companies. In 2010, the Chamber transformed yet again; it became the Utah Valley Chamber of Commerce, spreading to include 25 cities throughout the area.!</p>
+      </div>
+      <a class="submitbutton" href="join.html">Join Us</a>
+  </section>
+  <section class="upcoming">
+    <h2>Upcoming Events</h2>
+    <p>April 27th - Community Service</p>
+    <p>May 5th - Mexican Celebration</p>
+    <p>May 20th - Library Event for Kids</p>
+</section>
+        
+  <div class="forecast">
+    <h2>3 Day Forecast</h2>
+    <table class="forecasttable">
+      <tr>
+        <th><span id="dayofweek1"></span></th>
+        <th><span id="dayofweek2"></span></th>
+        <th><span id="dayofweek3"></span></th>
+       
+        
+      </tr>
+      <td><img id="icon1"
+        src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+        alt="unknown" /></td>
+    <td><img id="icon2"
+        src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+        alt="unknown"></td>
+    <td><img id="icon3"
+        src="https://github.com/yuvraaaj/openweathermap-api-icons/blob/master/icons/unknown.png?raw=true"
+        alt="unknown"></td>
+    
+  </tr>
+      </tr>
+          <td><span id="forecast1"></span>&#8457;</td>
+          <td><span id="forecast2"></span>&#8457;</td>
+          <td><span id="forecast3"></span>&#8457;</td>
+          
+      </tr>
+    </table>
+  </div>
+   
+      
+     
+      <div class="contact-us">
+        <section>
+          <h2></h2>
+            <p><b>Address:</b><br>2696 N University Ave Suite 220 Provo, Utah, 84604</p>
+            <br><p><b>Email:</b><br> info@thechamber.org </p>
+            <br><p><b>Phone:</b><br>(385) 482-2555</p>
+            <a href="https://www.facebook.com/"><img class="social" src="images/facebook-logo.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img class="social" src="images/instagram-logo.png" alt="instagram"></a>
+            <a href="https://twitter.com/"><img class="social" src="images/twitter-logo.png" alt="twitter"></a>
+            <a href="https://youtube.com/"><img class="social" src="images/youtube-logo.png" alt="youtube"></a>
+          </section>
+        
+      </div>
+        
+  </main>
+  <footer>
+   
+    <div class="footer-bar">
+     
+      <div>Last Update:</div>
+      
+      <span id="updatetime"> </span>
+      <p>Weather Data provided by OpenWeatherMap </p>
+    </div>
+  </footer>
+ 
+  <script src="js/menu.js"></script>
+  <script src="js/currentdate.js"></script>
+  <script src="js/towndata.js"></script>
+  <script src="js/weatherapi.js"></script>
+</body>
+</html>

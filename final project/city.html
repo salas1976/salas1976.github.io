@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Week 04  WDD 230-11: Web FrontEnd Development at Brigham Young University - Idaho">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&amp;family=PT+Sans+Narrow&amp;display=swap" rel="stylesheet">
+   
+    <title>Final Project</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/forestcast.png">
+  </head>
+   <body>
+     <div id="message"></div>
+     <header class=clearfix>
+      <picture>
+        
+      </picture>
+      <section class="headings">
+
+        <h1>Chamber of Commerce</h1>
+        <p class="slogan"></p>
+      </section>
+      <button class="ham">☰</button>
+    </header>
+    <nav class="clearfix">
+      <ul class="navigation">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a id="active" class="nav-link" href="city.html">City</a></li>
+        <li><a class="nav-link" href="join.html">Join</a></li>
+        <li><a class="nav-link" href="directory.html">Directory</a></li>
+     
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+    </nav>
+       <main class="clearfix">
+        <h1>Orem Utah</h1>
+        <div class="imageandweather">
+          <picture class="heroimage">
+              <source media="(max-width: 500px)" srcset="images/hero500.jpeg">
+              <source media="(max-width: 800px)" srcset="images/hero800.jpeg">
+              <img src="images/Oremcity.jpeg" alt="Orem">
+          </picture> 
+         
+      </div>
+      
+           
+      
+      </div>
+      <div class=article>
+        <h2>History</h2>
+        <img src="images/oremlibrary.jpeg" alt="article image">
+        <p>Orem is a city in Utah County, Utah, United States, in the northern part of the state. It is adjacent to Provo, Lindon, and Vineyard and is approximately 45 miles (72 km) south of Salt Lake City. Orem is one of the principal cities of the Provo-Orem, Utah Metropolitan Statistical Area, which includes all of Utah and Juab counties. The 2019 population estimate was 97,828, while the 2010 population was 88,328[5] making it the fifth-largest city in Utah. Utah Valley University is located in Orem.
+
+          Orem uses the slogan "Family City USA." In 2010, Forbes rated it the fifth best place to raise a family. Time magazine rated the Provo-Orem area as the best place to live for spiritual well-being, due to a high population of members of The Church of Jesus Christ of Latter-day Saints.</p>
+              
+            </div>
+  
+  
+    
+  </div>
+    </main>
+    <footer>
+       <div class="footer-bar">
+        <p> </p>
+        <div>Today is:</div>
+        <span id="updatetime"></span>
+      </div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/weatherapi.js"></script>
+  </body>
+  
+  
+  
+  </html>
